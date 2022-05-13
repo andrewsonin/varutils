@@ -1,10 +1,11 @@
 [tool.poetry]
 name = "varutils"
-version = "0.0.4"
+version = "0.0.5"
 description = "My personal Python module containing various useful utilities."
 authors = ["Andrew Sonin <sonin.cel@yandex.ru>"]
 repository = "https://github.com/andrewsonin/varutils"
 homepage = "https://github.com/andrewsonin/varutils"
+readme = "README.md"
 license = "Apache License 2.0"
 
 [tool.poetry.dependencies]
