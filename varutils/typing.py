@@ -1,3 +1,4 @@
+from functools import partial
 from typing import Any, Union, Type, Tuple, Optional
 
 from varname import argname
