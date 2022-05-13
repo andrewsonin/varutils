@@ -1,5 +1,5 @@
 from functools import partial
-from typing import Any, Union, Type, Tuple, Optional
+from typing import Any, Union, Type, Tuple, Optional, Callable, Iterable, Iterator
 
 from varname import argname
 
