@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "varutils"
-version = "0.0.5"
+version = "0.0.6"
 description = "My personal Python module containing various useful utilities."
 authors = ["Andrew Sonin <sonin.cel@yandex.ru>"]
 repository = "https://github.com/andrewsonin/varutils"
