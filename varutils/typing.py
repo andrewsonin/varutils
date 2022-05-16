@@ -1,5 +1,4 @@
-from functools import partial
-from typing import Any, Union, Type, Tuple, Optional, Callable, Iterable, Iterator
+from typing import Any, Union, Type, Tuple, Optional, Iterable, Iterator
 
 from varname import argname
 
@@ -21,10 +20,9 @@ def get_fully_qualified_name(typ: Type) -> str:
     return name
 
 
-get_fully_qualified_names: Callable[[Iterable[Type]], Iterator[str]] = partial(  # type: ignore
-    map,
-    get_fully_qualified_name
-)
+def get_fully_qualified_names(types: Iterable[Type]) -> Iterator[str]:
+    """Returns fully qualified names of type objects."""
+    return map(get_fully_qualified_name, types)
 
 
 def check_type_compatibility(var: Any,
